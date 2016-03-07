@@ -12,4 +12,6 @@ cd /var/www/ProjectName
 ln -s /usr/bin/nodejs /usr/bin/node
 npm -g install npm@latest
 npm install -g forever
+# needs to be installed globally to use watchify command
+npm install -g watchify
 npm install
